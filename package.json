@@ -1,0 +1,31 @@
+{
+  "name": "foreach-in-dir",
+  "version": "1.0.0",
+  "description": "Run a function for each file in a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleytodd/foreach-in-dir.git"
+  },
+  "keywords": [
+    "foreach",
+    "fs",
+    "directory"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleytodd/foreach-in-dir/issues"
+  },
+  "homepage": "https://github.com/wesleytodd/foreach-in-dir#readme",
+  "dependencies": {
+    "run-parallel": "^1.1.4"
+  },
+  "devDependencies": {
+    "happiness": "^5.5.0",
+    "mocha": "^2.4.5"
+  }
+}
