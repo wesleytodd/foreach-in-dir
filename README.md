@@ -35,4 +35,8 @@ forEachInDir(dir, function (filename, done) {
 	// results is an array of the contents of each file
 });
 
+// Also has a recursive method
+forEachInDir.recursive(dir, function (filename, done) {
+	// ...
+});
 ```
