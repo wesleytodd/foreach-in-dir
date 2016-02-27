@@ -46,7 +46,7 @@ function recursiveForeachInDir (dirpath, fnc, done, __origDirPath) {
 
 function streamForEachInDir (dirpath) {
 	var stream = through2.obj();
-	forEachInDir(dirpath, function (file, done) {
+	foreachInDir(dirpath, function (file, done) {
 		stream.write(file);
 		done();
 	}, function (err) {
