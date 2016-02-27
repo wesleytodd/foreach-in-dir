@@ -1,6 +1,6 @@
 {
   "name": "foreach-in-dir",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Run a function for each file in a directory",
   "main": "index.js",
   "scripts": {
