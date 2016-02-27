@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/wesleytodd/foreach-in-dir#readme",
   "dependencies": {
-    "run-parallel": "^1.1.4"
+    "run-parallel": "^1.1.4",
+    "through2": "^2.0.1"
   },
   "devDependencies": {
     "happiness": "^5.5.0",
